@@ -3,7 +3,7 @@ import telebot
 from telegraph import Telegraph
 
 # Initialize bot with your Telegram bot token
-API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
+API_TOKEN = '7547126569:AAGkVgsGY6VCJnoSEJU9Pu1stGRsmLfHDLk'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Initialize Telegraph client

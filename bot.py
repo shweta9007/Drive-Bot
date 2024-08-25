@@ -12,7 +12,7 @@ telegraph.create_account(short_name='bot')
 
 # Function to fetch search results
 def fetch_search_results(query):
-    url = f"https://scloud.starkflix.cloud/search?q={query}"
+    url = f"https://ddlheaven-old.yellowflash-cloud7775.workers.dev?q={query}"
     response = requests.get(url)
     if response.status_code == 200:
         return response.json()
